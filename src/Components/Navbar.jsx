@@ -1,7 +1,7 @@
 import '../App.css'
 
 export const Navbar = () => {
-    return(
+    return
         <div>Navbar</div>
-    );
+    ;
 }

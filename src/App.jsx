@@ -1,6 +1,5 @@
-
+import { Navbar } from "./Components/Navbar"
 import Footer from './Components/Footer.jsx'
-
 import Sec1 from './Components/Sec1.jsx'
 import Sidebar from './Components/Sidebar.jsx'
 
@@ -10,9 +9,8 @@ function App() {
 
   return(
     <div className='App'>
-       <Header/>
+      <Navbar/>
        <Sidebar/>
-      
        <Sec1/>
        <Footer/>
     </div>
