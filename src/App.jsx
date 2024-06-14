@@ -8,12 +8,19 @@ import Dashboard from "./Components/Pages/Dashboard.jsx"
 import Footer from './Components/Footer.jsx'
 import Sec1 from './Components/Sec1.jsx'
 import Sidebar from './Components/Sidebar.jsx'
+import Temperature from "./Components/Pages/Temperature.jsx"
+import PH from "./Components/Pages/PH.jsx"
+import Conductivity from "./Components/Pages/Conductivity.jsx"
+import Turbidity from "./Components/Pages/Turbidity.jsx"
+import Standards from "./Components/Pages/Standards.jsx"
+import Account from "./Components/Pages/Account.jsx"
+import Settings from "./Components/Pages/Settings.jsx"
 
 import './App.css'
 
 function App() {
   return(
-    // <BrowserRouter>
+    
     // <div className='App'>
     // <Navbar/>
     //   <Routes>
@@ -30,7 +37,7 @@ function App() {
     //    </div>
     //    <Footer/>
     // </div>
-    // </BrowserRouter>
+    
     <BrowserRouter>
     <Routes>
     <Route path="/dashboard" element={<Dashboard />}/>

@@ -78,7 +78,7 @@ const Sidebar = () => {
         <div className="container-1">
             <div className="Sidebar">
                 <div className="top_section">
-                    
+
                 </div>
             </div>
         </div>
