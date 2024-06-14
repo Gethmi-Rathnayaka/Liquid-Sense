@@ -11,7 +11,7 @@ export const SidebarData = [
     {
         title: "Dashboard",
         icon: <HomeFilled />,
-        link: "/Dashboard"
+        link: "/Pages/Dashboard"
     },
     {
         title: "Temperature",
