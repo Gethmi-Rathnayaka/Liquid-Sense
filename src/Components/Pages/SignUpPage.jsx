@@ -1,4 +1,11 @@
 import React, { useState } from 'react';
+import "./SignUpPage.css"
+
+export const Sign_up = () => {
+  return(
+      <div></div>
+  );
+}
 
 function SignInPage() {
   const [username, setUsername] = useState('');

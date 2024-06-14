@@ -5,13 +5,14 @@
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 0;overflow: hidden;
 }
 
 .Sidebar{
     height: 100%;
     width: 300px;
     background-color: #2F4050;
+    margin: 0;
 }
 
 .SidebarList{
@@ -50,4 +51,46 @@ body{
 .row #title{
     flex: 30%;
     padding-right: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 186, 150);
+    position: sticky;
+    top: 0;
+}
+
+nav .title{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}    
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover{
+    background-color: rgb(116, 206, 176);
+}
+
+nav .active{
+    background-color: rgb(16, 60, 60);
 }
