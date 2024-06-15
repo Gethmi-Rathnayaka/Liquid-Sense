@@ -38,8 +38,8 @@ function App() {
     //    <Footer/>
     // </div>
     
-    <BrowserRouter>
-    <Routes>
+    <div className="liquidsense">
+      <Routes>
     <Route path="/dashboard" element={<Dashboard />}/>
     <Route path="/about" element={<About />}/>
     <Route path="/login" element={<Login />}/>
@@ -60,7 +60,8 @@ function App() {
     </div>
     <Footer/>
     </div>
-    </BrowserRouter>
+    </div>
+    
   );
   
 };
